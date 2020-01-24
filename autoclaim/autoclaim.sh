@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# I recommend to use this script outside your BP node. If so I fully recommend
-# to do it over a secured connection since you have to send your wallet's pass
-# to your BP (or any other BP) node to be processed. You can install a reverse
-# proxy like nginx (check:). Make sure you have a local  wallet defined with your
-# BP key imported.
+# Autoclaim script for INSTAR block producers.
+# Please configure the script before running it for the first time.
+#
+# You need to call this script with your wallet's key and BP account
 # This script was inspired by the one created by AnsenYu
 # https://github.com/AnsenYu/ENUAvengers/tree/master/scripts/bpclaim
-# Dragos Vlaicu - 07/05/2018 - ENU BP - eosbucharest
-# Version: 1.2
+# Dragos Vlaicu - 01/24/2020 - INSTAR BP - eosbucharest
+# Version: 1.0
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
